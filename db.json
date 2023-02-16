@@ -1,0 +1,350 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "name": "Bob",
+      "email": "bob@sd.ds",
+      "password": "asd32",
+      "id": "yjojhckz108nnn"
+    },
+    {
+      "name": "Ivan",
+      "email": "i@van.i",
+      "password": "ivan21",
+      "id": "yjo53gkzfvha2c"
+    },
+    {
+      "name": "arsen",
+      "email": "arsen@ar.se",
+      "password": "arsen#",
+      "id": "yjogq8kzk17loy"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Банк",
+      "user_id": "1",
+      "id": "1"
+    },
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Sber",
+      "user_id": "yjogq8kzk17loy",
+      "id": "yjo254kzk1h7ru"
+    },
+    {
+      "name": "Alfa",
+      "user_id": "yjogq8kzk17loy",
+      "id": "yjo87gkzk1hdjo"
+    },
+    {
+      "name": "Tinek",
+      "user_id": "yjogq8kzk17loy",
+      "id": "yjokhkkzkbj05m"
+    },
+    {
+      "name": "Кошелёк",
+      "user_id": "1",
+      "id": "yjo970kzuz1iy0"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "yjof64kzk1hscl",
+      "type": "income",
+      "name": "Zarplata",
+      "sum": 15000,
+      "account_id": "yjo254kzk1h7ru",
+      "user_id": "yjogq8kzk17loy",
+      "created_at": "2022-02-12T16:14:56.708Z"
+    },
+    {
+      "id": "yjobbokzk1idue",
+      "type": "expense",
+      "name": "PIL",
+      "sum": 8000,
+      "account_id": "yjo87gkzk1hdjo",
+      "user_id": "yjogq8kzk17loy",
+      "created_at": "2022-02-12T16:15:24.565Z"
+    },
+    {
+      "id": "yjoca4kzkajzh0",
+      "type": "income",
+      "name": "Perevod",
+      "sum": 3000,
+      "account_id": "yjo87gkzk1hdjo",
+      "user_id": "yjogq8kzk17loy",
+      "created_at": "2022-02-12T20:28:35.795Z"
+    },
+    {
+      "id": "yjo3wwkzkakgqj",
+      "type": "expense",
+      "name": "Perevod",
+      "sum": 3000,
+      "account_id": "yjo254kzk1h7ru",
+      "user_id": "yjogq8kzk17loy",
+      "created_at": "2022-02-12T20:28:58.170Z"
+    },
+    {
+      "id": "yjo3pgkzkbkcp6",
+      "type": "income",
+      "name": "Nakopleniya",
+      "sum": 150000,
+      "account_id": "yjokhkkzkbj05m",
+      "user_id": "yjogq8kzk17loy",
+      "created_at": "2022-02-12T20:56:52.553Z"
+    },
+    {
+      "id": "yjoaeckzoj1ai0",
+      "type": "expense",
+      "name": "продукты",
+      "sum": 8000,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-15T19:37:04.871Z"
+    },
+    {
+      "id": "yjoh18kzoj51j5",
+      "type": "income",
+      "name": "Зарплата",
+      "sum": 140000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-15T19:39:59.872Z"
+    },
+    {
+      "id": "yjol0wkzuxqv19",
+      "type": "income",
+      "name": "Перевод",
+      "sum": 8000,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T07:15:29.564Z"
+    },
+    {
+      "id": "yjobkwkzuxrbha",
+      "type": "expense",
+      "name": "Сок",
+      "sum": 120,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T07:15:50.877Z"
+    },
+    {
+      "id": "yjojbskzuxrztq",
+      "type": "expense",
+      "name": "Яблоки",
+      "sum": 80,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T07:16:22.429Z"
+    },
+    {
+      "id": "yjoepokzuxsia3",
+      "type": "income",
+      "name": "Перевод 2",
+      "sum": 3000,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T07:16:46.346Z"
+    },
+    {
+      "id": "yjo5okkzuye3wk",
+      "type": "income",
+      "name": "Перевод 3",
+      "sum": 2000,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T07:33:34.147Z"
+    },
+    {
+      "id": "yjo68gkzuyffck",
+      "type": "expense",
+      "name": "Томаты",
+      "sum": 330,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T07:34:35.635Z"
+    },
+    {
+      "id": "yjo5vokzuymh6o",
+      "type": "income",
+      "name": "Перевод 4",
+      "sum": 15000,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T07:40:04.607Z"
+    },
+    {
+      "id": "yjoln4kzv352b2",
+      "type": "income",
+      "name": "Банкноты",
+      "sum": 3000,
+      "account_id": "yjo970kzuz1iy0",
+      "user_id": "1",
+      "created_at": "2022-02-20T09:46:30.253Z"
+    },
+    {
+      "id": "yjookckzv35k2j",
+      "type": "expense",
+      "name": "Сигареты",
+      "sum": 200,
+      "account_id": "yjo970kzuz1iy0",
+      "user_id": "1",
+      "created_at": "2022-02-20T09:46:53.274Z"
+    },
+    {
+      "id": "yjocbckzv46z0z",
+      "type": "income",
+      "name": "Конвертация валюты",
+      "sum": 44000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-20T10:15:58.930Z"
+    },
+    {
+      "id": "yjobi0kzv484ap",
+      "type": "expense",
+      "name": "Погашение кредит",
+      "sum": 15400,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-20T10:16:52.416Z"
+    },
+    {
+      "id": "yjopvskzv496yp",
+      "type": "income",
+      "name": "Аванс",
+      "sum": 34000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-20T10:17:42.528Z"
+    },
+    {
+      "id": "yjocn0kzv4jhku",
+      "type": "expense",
+      "name": "Виноград",
+      "sum": 300,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T10:25:42.845Z"
+    },
+    {
+      "id": "yjopxgkzv4va8s",
+      "type": "expense",
+      "name": "Хлеб",
+      "sum": 45,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T10:34:53.211Z"
+    },
+    {
+      "id": "yjon94kzv52uab",
+      "type": "expense",
+      "name": "Картофель",
+      "sum": 88,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T10:40:45.778Z"
+    },
+    {
+      "id": "yjo4qkkzv53e3z",
+      "type": "expense",
+      "name": "Минералка",
+      "sum": 300,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T10:41:11.470Z"
+    },
+    {
+      "id": "yjomj0kzv5ih48",
+      "type": "expense",
+      "name": "Перевод",
+      "sum": 5000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-20T10:52:55.207Z"
+    },
+    {
+      "id": "yjoq0kzv5j0up",
+      "type": "expense",
+      "name": "Перевод 2",
+      "sum": 2000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-20T10:53:20.784Z"
+    },
+    {
+      "id": "yjokookzv5qpbv",
+      "type": "income",
+      "name": "Возврат долга",
+      "sum": 7000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-20T10:59:19.098Z"
+    },
+    {
+      "id": "yjomqskzv5z3uy",
+      "type": "expense",
+      "name": "Кофе зерновой",
+      "sum": 2000,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2022-02-20T11:05:51.177Z"
+    },
+    {
+      "id": "yjo8xwkzvatioc",
+      "type": "income",
+      "name": "Reversal",
+      "sum": 3000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-20T13:21:28.523Z"
+    },
+    {
+      "id": "yjoqbokzvau8tx",
+      "type": "expense",
+      "name": "Annual fee",
+      "sum": 1000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-20T13:22:02.420Z"
+    },
+    {
+      "id": "yjopm8kzvautd6",
+      "type": "expense",
+      "name": "SMS alerting fee",
+      "sum": 100,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-20T13:22:29.033Z"
+    },
+    {
+      "id": "yjom64kzvavnzs",
+      "type": "income",
+      "name": "Reject",
+      "sum": -100,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-02-20T13:23:08.727Z"
+    },
+    {
+      "id": "yjo5wcl043jyjk",
+      "type": "income",
+      "name": "Чаевые",
+      "sum": 300,
+      "account_id": "yjo970kzuz1iy0",
+      "user_id": "1",
+      "created_at": "2022-02-26T17:08:00.799Z"
+    }
+  ]
+}
